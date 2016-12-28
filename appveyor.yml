@@ -9,24 +9,11 @@ test: off
 
 branches:
   only:
-    - develop
     - master
-    - /release\/.*/
       
 # Do not build on tags
 skip_tags: true
 
-clone_folder: c:\projects\testify
-
 environment:
   GitHubPersonalAccessToken:
-    secure: H9H2HNKz0vEz91m6b5aEoEeb3xhrI3rbsJKvmbkQFbwq0P+zqhoPdcx4EBqNbvYl
-  CoverallsToken:
-    secure: uCTsfs+WNEYvAjp8jZ8CLqfNe2JsKvOCDIXdIFsNovbvcrvHzt7J+yZdvi4w+h6y
-  NuGetApiKey:
-    secure: WCC9YoXjXGB6om2aN3jD0n5Jk63LKg42sViodxTK04T16/MQ0e4F8JU2XmoO+iY6
-  MyGetApiKey:
-    secure: 3bjCk3g3eDsa72b1jJR9QRWK+iivJLfcNVBV/fVJChIwtBdZxTKOrBZxhOHU5jR/
-
-artifacts:
-  - path: 'docs\site.zip'
+    secure: BapiM5BN8CJwmX6mPMGkxkD3lq9soxMAdCPzpCj9pM+GuY3PgITquBkJRGk/dPmR
